@@ -9,12 +9,14 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { environment } from './../environments/environment';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CoursesListComponent } from './courses-list/courses-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppNavbarComponent
+    AppNavbarComponent,
+    CoursesListComponent
   ],
   imports: [
     BrowserModule,
